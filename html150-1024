@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Example HTML page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Welcome to my website</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Introduction</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget sapien nec mauris tincidunt dignissim. Proin tristique est vel bibendum ultricies. Ut non metus luctus, lacinia augue eget, tincidunt velit. Donec volutpat velit eu augue sollicitudin, in fringilla massa vestibulum. Vivamus vel bibendum orci. </p>
+		</section>
+		<section>
+			<h2>Services</h2>
+			<ul>
+				<li>Web design</li>
+				<li>Graphic design</li>
+				<li>Content creation</li>
+				<li>Social media management</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Contact us</h2>
+			<form action="#" method="post">
+				<label for="name">Name:</label>
+				<input type="text" name="name" id="name"><br>
+				<label for="email">Email:</label>
+				<input type="email" name="email" id="email"><br>
+				<label for="message">Message:</label>
+				<textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>Copyright © 2022</p>
+	</footer>
+</body>
+</html>
