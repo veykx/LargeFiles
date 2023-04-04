@@ -1,0 +1,6 @@
+public class LargeJavaFile {
+    public static final String STRING_1 = new StringBuilder().append("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi eu sapien faucibus pulvinar at eu metus. Sed euismod justo nec felis sollicitudin, id placerat enim vestibulum. Maecenas ultrices odio ut ligula sodales, vel blandit nulla aliquet. Sed ac lacus quis mauris vehicula facilisis. Morbi quis est euismod, malesuada arcu eget, dignissim enim. Fusce quis enim nec magna venenatis dapibus. Praesent ut neque eleifend, aliquam purus vel, viverra metus.").toString();
+    public static final String STRING_2 = new StringBuilder().append("Vestibulum consectetur posuere purus, sed pellentesque velit tristique in. Sed ullamcorper magna nec lorem hendrerit, id luctus massa ultrices. Donec aliquam, mauris id varius auctor, augue ex malesuada lacus, non fringilla justo massa quis ipsum. Etiam eu quam diam. ").toString();
+    public static final String STRING_3 = new StringBuilder().append("Suspendisse potenti. Proin quis nunc ut mi maximus efficitur. Vestibulum pulvinar tellus at purus fringilla, quis tempor velit luctus. Ut consequat augue elit, eu lacinia turpis maximus sit amet. Duis blandit nibh in dui gravida lacinia.").toString();
+    // Más constantes de cadena similares...
+}
